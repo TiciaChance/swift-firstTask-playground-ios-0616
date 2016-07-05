@@ -16,7 +16,7 @@
 */
 // write your code here
 
-
+var accountBalance = 948
 
 
 /*: question2
@@ -24,6 +24,7 @@
 */
 // write your code here
 
+let puppysName = "Bella"
 
 
 
@@ -32,7 +33,7 @@
 */
 // write your code here
 
-
+print("the name of my new puppy is : \(puppysName)")
 
 
 /*: question4
@@ -40,8 +41,7 @@
 */
 // write your code here
 
-
-
+print("I just got a new puppy named \(puppysName) and she is awesome!")
 
 /*: question5
 ### 5. Use the `print()` function to print the sentence "I have $<balance> in my bank account." to the console.
@@ -49,22 +49,22 @@
 // write your code here
 
 
-
+print("I have \(accountBalance) in my bank account")
 
 /*: question6
 ### 6. Congratulations! You just got $100 for your birthday, so now you have $100 more in your bank account. Update your bank account with the new balance and print "I now have $<balance>." to the console.
 */
 // write your code here
 
-
-
+var newAccountBalance = accountBalance + 100
+print("I now have \(newAccountBalance)")
 
 /*: question7
 ### 7. You decided you don't like the name Bella. Change your puppy's name to something else. (Can you do this? What happens when you try? Why?)
 */
 // write your code here
 
-
+// cannot change Bella's name because I set it as a constant - if I change let to var I would be able to change the name
 
 
 //: [Solution](solution)
